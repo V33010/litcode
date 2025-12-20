@@ -49,6 +49,11 @@ def main():
         )
 
     # --------------------------------------------------
+    # 4.5 Pad question number to 4 digits
+    # --------------------------------------------------
+    question_number = question_number.zfill(4)
+
+    # --------------------------------------------------
     # 5. Prepare paths
     # --------------------------------------------------
     difficulty_path = PROBLEMS_DIR / difficulty

@@ -1,4 +1,3 @@
 ## Easy Problems
 
-- [ ] 
-- [ ] 1. two sum
+- [ ] 0001. two sum
